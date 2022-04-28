@@ -1,0 +1,104 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+img {
+  display: block;
+  font-weight: 700;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 700;
+  color: #1F2041;
+}
+
+h1 {
+  font-style: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+h2 {
+  font-size: 19px;
+  line-height: 23px;
+}
+
+h3 {
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 100%;
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+/*ui-kit*/
+.ui-kit {
+  margin-top: 140px;
+}
+
+.ui-kit__column {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+}
+
+.ui-kit__editor {
+  margin-bottom: 20px;
+}
+
+/*editor*/
+
+.label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.label__title {
+  font-weight: 700;
+  color: #1F2041;
+}
+
+.label__subtitle {
+  color: rgba(31, 32, 65, 0.5);
+}
+
+.editor {
+  width: 100%;
+  padding: 12px 14px;
+  line-height: 18px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 4px;
+}
+
+.editor:hover,
+.editor:focus,
+.editor_focused {
+  outline: none;
+  border: 1px solid rgba(31, 32, 65, 0.5);
+}
+
+.editor::placeholder {
+  color: rgba(31, 32, 65, 0.25);
+}

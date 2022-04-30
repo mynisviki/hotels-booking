@@ -11,6 +11,7 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="../../assets/styles/normalize.css">
+  <link rel="stylesheet" href="../../assets/styles/common.css">
   <link rel="stylesheet" href="style.css">
   <title>UI Kit</title>
 </head>
@@ -33,6 +34,40 @@
             <span class="label__subtitle">Hover / Focus</span>
           </label>
           <input class="editor editor_focused ui-kit__editor" id="text" type="text" value="This is pretty awesome">
+        </div>
+
+        <div class="editor-container">
+          <label class="label" for="select">Dropdown</label>
+          <select class="editor editor_type_select ui-kit__editor" id="select">
+            <option>Сколько гостей</option>
+            <option>Пункт 2</option>
+            <option>Пункт 3</option>
+          </select>
+        </div>
+
+        <div class="editor-container">
+          <label class="label" for="date">masked text field</label>
+          <input class="editor ui-kit__editor" id="date" type="text" placeholder="ДД.ММ.ГГГГ">
+        </div>
+
+        <div class="ui-kit__group">
+          <div class="editor-container ui-kit__left">
+            <label class="label" for="select">date Dropdown</label>
+            <select class="editor editor_type_select ui-kit__editor" id="select">
+              <option>ДД.ММ.ГГГГ</option>
+              <option>Пункт 2</option>
+              <option>Пункт 3</option>
+            </select>
+          </div>
+          <div class="editor-container ui-kit__right">
+            <label class="label" for="select">date Dropdown</label>
+            <select class="editor editor_type_select ui-kit__editor" id="select">
+              <option>19.08.2019</option>
+              <option>Пункт 2</option>
+              <option>Пункт 3</option>
+            </select>
+          </div>
+
         </div>
 
 
